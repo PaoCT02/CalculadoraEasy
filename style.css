@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+
+h1{
+     padding: 40px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.respuesta{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.formulario{
+    width: 250px;
+    height: 350px;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: url(./images/hojas.jpg);
+    background-size: cover;
+    box-shadow: 5px 10px #888888 ;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+
+}
+
+.contenedor input{
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 18px;
+   
+}
+
+.contenedor input:hover{
+    background:rgb(201, 207, 212) ;
+}
